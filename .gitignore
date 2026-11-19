@@ -1,0 +1,17 @@
+# Ignore raw CSV datasets (upload/place CSVs under datasets/ manually)
+datasets/*.csv
+datasets/**/*.csv
+*.csv
+
+# Jupyter checkpoints & Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS & editor clutter
+.DS_Store
+Thumbs.db
